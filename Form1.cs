@@ -25,8 +25,8 @@ namespace dakik_sms
         public void mesaj_gonder()
         {
             servis_sms.SendSMSResult sonuc = new servis_sms.SendSMSResult();
-            string kullanici = "kamuhas";
-            string parola = "1659km";
+            string kullanici = "your user name ";
+            string parola = "your password";
             string originator = "DEMO";
             string reference = "ben";
             string bas_tarih = "14042017100000";
